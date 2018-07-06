@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Revise PAQ</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Failed, check your email and password or contact us</string>
+    <string name="about_us_cupaq">About Us (C.U.P.A.Q.)</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8838800658967385/8189640547</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-8838800658967385/6450017614</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Balogun Gift</string>
+    <string name="nav_header_subtitle">gift@revisepaq.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
