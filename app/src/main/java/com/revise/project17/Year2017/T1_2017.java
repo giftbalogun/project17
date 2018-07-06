@@ -1,4 +1,4 @@
-package com.revise.project17.Year2018;
+package com.revise.project17.Year2017;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -7,14 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import com.revise.project17.R;
-import com.revise.project17.Year2018.Test1.Chm111.Chm111Q;
-import com.revise.project17.Year2018.Test1.Mat111.Mat111Q;
-import com.revise.project17.Year2018.Test1.Mat112.Mat112Q;
-import com.revise.project17.Year2018.Test1.Phy111.Phy111Q;
-import com.revise.project17.Year2018.Test1.Phy112.Phy112Q;
 
-public class T1_2018 extends Fragment {
+import com.revise.project17.R;
+import com.revise.project17.Year2017.Test1.Chm111.Chm111Q;
+import com.revise.project17.Year2017.Test1.Mat111.Mat111Q;
+import com.revise.project17.Year2017.Test1.Mat112.Mat112Q;
+import com.revise.project17.Year2017.Test1.Phy111.Phy111Q;
+import com.revise.project17.Year2017.Test1.Phy112.Phy112Q;
+
+public class T1_2017 extends Fragment {
     View view;
     Button mat111, mat112, phy111, phy112, chm111;
     @Override

@@ -1,4 +1,4 @@
-package com.revise.project17.Year2018.Test1.Mat111;
+package com.revise.project17.Year2017.Test1.Phy112;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -14,10 +14,12 @@ import android.widget.TextView;
 
 import java.util.Vector;
 import com.revise.project17.R;
+import com.revise.project17.Year2018.Test1.Phy112.Phy112QR;
+import com.revise.project17.Year2018.Test1.Phy112.Phy112_score;
 
-public class Mat111Q extends AppCompatActivity {
+public class Phy112Q extends AppCompatActivity {
     MediaPlayer bgs;
-    Mat111QR qst;
+    Phy112QR qst;
     Button btnext;
     TextView qs;
     RadioGroup rg;
@@ -41,8 +43,6 @@ public class Mat111Q extends AppCompatActivity {
         QuizService quizService = new QuizService();
         quizService.execute("https://api.myjson.com/bins/1cbcz6", "T1MAT1112018");
 
-
-
         btnext = (Button)      findViewById(R.id.next);
         qs     = (TextView)    findViewById(R.id.question);
         rg     = (RadioGroup)  findViewById(R.id.radioGroup);
@@ -63,7 +63,7 @@ public class Mat111Q extends AppCompatActivity {
 
         i++;
         if(i>=questions.size()){
-            Intent in = new Intent(getApplicationContext(),Mat111_score.class);
+            Intent in = new Intent(getApplicationContext(),Phy112_score.class);
             startActivity(in);
             finish();
         }
@@ -85,7 +85,7 @@ public class Mat111Q extends AppCompatActivity {
         @Override
         protected Void doInBackground(String... params) {
             try {
-                qst       = new Mat111QR(params[0], params[1]);
+                qst       = new Phy112QR(params[0], params[1]);
                 questions = qst.getQuestions();
                 options   = qst.getOptions();
                 answers   = qst.getAnswers();

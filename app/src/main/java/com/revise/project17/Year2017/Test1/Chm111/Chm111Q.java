@@ -1,4 +1,4 @@
-package com.revise.project17.Year2018.Test1.Mat111;
+package com.revise.project17.Year2017.Test1.Chm111;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -14,10 +14,12 @@ import android.widget.TextView;
 
 import java.util.Vector;
 import com.revise.project17.R;
+import com.revise.project17.Year2018.Test1.Chm111.Chm111QR;
+import com.revise.project17.Year2018.Test1.Chm111.Chm111_score;
 
-public class Mat111Q extends AppCompatActivity {
+public class Chm111Q extends AppCompatActivity {
     MediaPlayer bgs;
-    Mat111QR qst;
+    Chm111QR qst;
     Button btnext;
     TextView qs;
     RadioGroup rg;
@@ -63,7 +65,7 @@ public class Mat111Q extends AppCompatActivity {
 
         i++;
         if(i>=questions.size()){
-            Intent in = new Intent(getApplicationContext(),Mat111_score.class);
+            Intent in = new Intent(getApplicationContext(),Chm111_score.class);
             startActivity(in);
             finish();
         }
@@ -85,7 +87,7 @@ public class Mat111Q extends AppCompatActivity {
         @Override
         protected Void doInBackground(String... params) {
             try {
-                qst       = new Mat111QR(params[0], params[1]);
+                qst       = new Chm111QR(params[0], params[1]);
                 questions = qst.getQuestions();
                 options   = qst.getOptions();
                 answers   = qst.getAnswers();

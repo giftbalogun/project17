@@ -1,4 +1,4 @@
-package com.revise.project17.Year2018.Test1.Mat111;
+package com.revise.project17.Year2017.Test1.Mat111;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 import java.util.Vector;
 import com.revise.project17.R;
+import com.revise.project17.Year2018.Test1.Mat111.Mat111QR;
+import com.revise.project17.Year2018.Test1.Mat111.Mat111_score;
 
 public class Mat111Q extends AppCompatActivity {
     MediaPlayer bgs;

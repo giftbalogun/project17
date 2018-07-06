@@ -9,18 +9,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.revise.project17.Year2018.T1_2018;
-import com.revise.project17.Year2017.T1_2017;
+import com.revise.project17.Year2018.T2_2018;
+import com.revise.project17.Year2017.T2_2017;
 
-import static android.app.PendingIntent.getActivity;
-
-public class Test1 extends AppCompatActivity {
+public class Test2 extends AppCompatActivity {
     Button year2018, year2017, year2016, year2015;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.test1);
+
         year2018 = (Button) findViewById(R.id.year_2018);
         year2017 = (Button) findViewById(R.id.year_2017);
         year2016 = (Button) findViewById(R.id.year_2016);
@@ -31,8 +30,8 @@ public class Test1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 // load First Fragment
-                loadFragment(new T1_2018());
-                Toast.makeText(Test1.this,
+                loadFragment(new T2_2018());
+                Toast.makeText(Test2.this,
                         "You Have Clicked Year 2018", Toast.LENGTH_LONG).show();
             }
         });
@@ -41,8 +40,8 @@ public class Test1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 // load Second Fragment
-                loadFragment(new T1_2017());
-                Toast.makeText(Test1.this,
+                loadFragment(new T2_2017());
+                Toast.makeText(Test2.this,
                         "You Have Clicked Year 2017", Toast.LENGTH_LONG).show();
             }
         });
@@ -52,7 +51,8 @@ public class Test1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 // load First Fragment
-
+                Toast.makeText(Test2.this,
+                        "You Have Clicked Year 2016", Toast.LENGTH_LONG).show();
             }
         });
 // perform setOnClickListener event on Second Button

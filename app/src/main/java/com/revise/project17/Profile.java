@@ -148,7 +148,8 @@ public class Profile extends AppCompatActivity
             Intent intent = new Intent(Profile.this, Test1.class);
             startActivity(intent);
         } else if (id == R.id.nav_test2) {
-
+            Intent intent = new Intent(Profile.this, Test2.class);
+            startActivity(intent);
         } else if (id == R.id.nav_mid) {
 
         } else if (id == R.id.nav_exam) {

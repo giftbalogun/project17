@@ -26,9 +26,57 @@
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Test1" />
+        <activity android:name=".Test2" />
+
         <activity android:name=".Year2018.T1_2018" />
+        <activity android:name=".Year2018.T2_2018" />
+
+        <activity android:name=".Year2017.T1_2017" />
+        <activity android:name=".Year2017.T2_2017" />
+
         <activity android:name=".Year2018.Test1.Mat111.Mat111Q" />
-        <activity android:name=".Year2018.Test1.Mat111.Mat111_score"></activity>
+        <activity android:name=".Year2018.Test1.Mat111.Mat111_score"/>
+        <activity android:name=".Year2018.Test1.Chm111.Chm111Q" />
+        <activity android:name=".Year2018.Test1.Chm111.Chm111_score"/>
+        <activity android:name=".Year2018.Test1.Mat112.Mat112Q" />
+        <activity android:name=".Year2018.Test1.Mat112.Mat112_score"/>
+        <activity android:name=".Year2018.Test1.Phy111.Phy111Q" />
+        <activity android:name=".Year2018.Test1.Phy112.Phy112Q" />
+        <activity android:name=".Year2018.Test1.Phy112.Phy112_score"/>
+        <activity android:name=".Year2018.Test1.Phy111.Phy111_score"/>
+        <activity android:name=".Year2018.Test2.Mat111.Mat111Q" />
+        <activity android:name=".Year2018.Test2.Mat111.Mat111_score"/>
+        <activity android:name=".Year2018.Test2.Chm111.Chm111Q" />
+        <activity android:name=".Year2018.Test2.Chm111.Chm111_score"/>
+        <activity android:name=".Year2018.Test2.Mat112.Mat112Q" />
+        <activity android:name=".Year2018.Test2.Mat112.Mat112_score"/>
+        <activity android:name=".Year2018.Test2.Phy111.Phy111Q" />
+        <activity android:name=".Year2018.Test2.Phy112.Phy112Q" />
+        <activity android:name=".Year2018.Test2.Phy112.Phy112_score"/>
+        <activity android:name=".Year2018.Test2.Phy111.Phy111_score"/>
+
+        <activity android:name=".Year2017.Test1.Mat111.Mat111Q" />
+        <activity android:name=".Year2017.Test1.Mat111.Mat111_score"/>
+        <activity android:name=".Year2017.Test1.Chm111.Chm111Q" />
+        <activity android:name=".Year2017.Test1.Chm111.Chm111_score"/>
+        <activity android:name=".Year2017.Test1.Mat112.Mat112Q" />
+        <activity android:name=".Year2017.Test1.Mat112.Mat112_score"/>
+        <activity android:name=".Year2017.Test1.Phy111.Phy111Q" />
+        <activity android:name=".Year2017.Test1.Phy112.Phy112Q" />
+        <activity android:name=".Year2017.Test1.Phy112.Phy112_score"/>
+        <activity android:name=".Year2017.Test1.Phy111.Phy111_score"/>
+        <activity android:name=".Year2017.Test2.Mat111.Mat111Q" />
+        <activity android:name=".Year2017.Test2.Mat111.Mat111_score"/>
+        <activity android:name=".Year2017.Test2.Chm111.Chm111Q" />
+        <activity android:name=".Year2017.Test2.Chm111.Chm111_score"/>
+        <activity android:name=".Year2017.Test2.Mat112.Mat112Q" />
+        <activity android:name=".Year2017.Test2.Mat112.Mat112_score"/>
+        <activity android:name=".Year2017.Test2.Phy111.Phy111Q" />
+        <activity android:name=".Year2017.Test2.Phy112.Phy112Q" />
+        <activity android:name=".Year2017.Test2.Phy112.Phy112_score"/>
+        <activity android:name=".Year2017.Test2.Phy111.Phy111_score">
+
+        </activity>
     </application>
 
 </manifest>
