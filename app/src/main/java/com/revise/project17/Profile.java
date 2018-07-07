@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -151,9 +152,11 @@ public class Profile extends AppCompatActivity
             Intent intent = new Intent(Profile.this, Test2.class);
             startActivity(intent);
         } else if (id == R.id.nav_mid) {
-
+            Toast.makeText(Profile.this,
+                    "Mid Semester Coming Soon", Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_exam) {
-
+            Toast.makeText(Profile.this,
+                    "Exam Coming Soon", Toast.LENGTH_LONG).show();
         } else if (id == R.id.contact_us) {
         } else if (id == R.id.about_us) {
         } else if (id == R.id.logout) {

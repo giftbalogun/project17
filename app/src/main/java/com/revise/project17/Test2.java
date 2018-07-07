@@ -59,7 +59,8 @@ public class Test2 extends AppCompatActivity {
         year2015.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-// load Second Fragment
+                Toast.makeText(Test2.this,
+                        "You Have Clicked Year 2015", Toast.LENGTH_LONG).show();
 
             }
         });
