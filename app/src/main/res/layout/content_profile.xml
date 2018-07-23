@@ -60,7 +60,7 @@
                             android:layout_below="@+id/imgView1"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:text="Portal Website"
+                            android:text="CU Portal Website"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
@@ -98,7 +98,7 @@
                             android:layout_below="@+id/imgView2"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:text="Moodle Website"
+                            android:text="CU E-Learning"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
@@ -129,13 +129,13 @@
 
                         <ImageView
                             android:id="@+id/imgView3"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_chat"
+                            android:src="@drawable/lmu1"
                             android:tint="@color/white" />
 
                         <TextView
@@ -145,7 +145,7 @@
                             android:layout_below="@+id/imgView3"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:text="Visit Our Website"
+                            android:text="LMU E-Learning"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
@@ -174,7 +174,7 @@
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_music"
+                            android:src="@drawable/log"
                             android:tint="@color/white" />
 
                         <TextView
@@ -184,7 +184,7 @@
                             android:layout_below="@+id/imgView4"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:text="Student Mail"
+                            android:text="CU Student Mail"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
@@ -215,13 +215,13 @@
 
                         <ImageView
                             android:id="@+id/imgView5"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_gallery"
+                            android:src="@drawable/lmu1"
                             android:tint="@color/white" />
 
                         <TextView
@@ -230,7 +230,7 @@
                             android:layout_below="@+id/imgView5"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
-                            android:text="@string/about_us_cupaq"
+                            android:text="LMU Student Portal"
                             android:textSize="14sp" />
 
                     </RelativeLayout>
@@ -259,7 +259,7 @@
                             android:adjustViewBounds="true"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/ic_map"
+                            android:src="@drawable/logo"
                             android:tint="@color/white" />
 
                         <TextView

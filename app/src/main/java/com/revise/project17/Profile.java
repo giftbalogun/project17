@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class Profile extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private FirebaseAuth mAuth;
-    RelativeLayout rellay_portal, rellay_moodle, rellay_website, rellay_mail, rellay_map, complain;
+    RelativeLayout rellay_portal, rellay_moodle, rellay_website, rellay_mail, rellay_gallery, rellay_map, rellay_web, complain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +35,8 @@ public class Profile extends AppCompatActivity
         rellay_mail = findViewById(R.id.rellay_mail);
         rellay_map = findViewById(R.id.rellay_web);
         complain = findViewById(R.id.complain);
+        rellay_web = findViewById(R.id.rellay_web);
+        rellay_gallery = findViewById(R.id.rellay_gallery);
 
         rellay_portal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +56,7 @@ public class Profile extends AppCompatActivity
         rellay_website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://covenantuniversity.edu.ng"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cms.lmu.edu.ng/"));
                 startActivity(intent);
             }
         });
@@ -69,6 +71,20 @@ public class Profile extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://swisstech360.blogspot.com/"));
+                startActivity(intent);
+            }
+        });
+        rellay_web.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://project2018-b66f8.firebaseapp.com/RevisePAQ/index.html"));
+                startActivity(intent);
+            }
+        });
+        rellay_gallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://fp.lmu.edu.ng/"));
                 startActivity(intent);
             }
         });
@@ -92,7 +108,7 @@ public class Profile extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Welcome To Revise PAQ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -158,7 +174,11 @@ public class Profile extends AppCompatActivity
             Toast.makeText(Profile.this,
                     "Exam Coming Soon", Toast.LENGTH_LONG).show();
         } else if (id == R.id.contact_us) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://project2018-b66f8.firebaseapp.com/RevisePAQ/contact.html"));
+            startActivity(intent);
         } else if (id == R.id.about_us) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://project2018-b66f8.firebaseapp.com/RevisePAQ/about.html"));
+            startActivity(intent);
         } else if (id == R.id.logout) {
             mAuth = FirebaseAuth.getInstance();
             mAuth.signOut();

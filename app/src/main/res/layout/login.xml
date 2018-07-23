@@ -37,7 +37,7 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/log"
+                    android:background="@drawable/logo"
                     android:padding="10dp"
                     android:tint="@color/white" />
 
@@ -202,7 +202,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
-                    android:src="@drawable/log" />
+                    android:src="@drawable/logo" />
 
             </LinearLayout>
         </LinearLayout>
